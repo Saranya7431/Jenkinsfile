@@ -1,7 +1,6 @@
 pipeline {
 agent any
 
-```
 environment {
     APP_NAME = "MyApp"
 }
@@ -71,6 +70,5 @@ post {
         echo 'Pipeline execution completed.'
     }
 }
-```
 
 }
