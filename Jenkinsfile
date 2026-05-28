@@ -10,7 +10,7 @@ stages {
     stage('Checkout Code') {
         steps {
             git branch: 'main',
-            url: 'https://github.comSaranya7431/Jenkinsfile.git'
+            url: 'https://github.com/Saranya7431/Jenkinsfile.git'
         }
     }
 
